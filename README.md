@@ -18,7 +18,6 @@ Once the script completes its execution, all the files in the folder, along with
 If you want to add additional extensions, you can easily modify the 7compress.bat file. Here's how:
 
 1.Open the 7compress.bat file in a text editor.
-
 2.Add a new line:
 ```
 for /r %%v in (*.[yourextension]) do (
