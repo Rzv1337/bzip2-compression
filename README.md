@@ -18,7 +18,9 @@ Once the script completes its execution, all the files in the folder, along with
 If you want to add additional extensions, you can easily modify the 7compress.bat file. Here's how:
 
 1.Open the 7compress.bat file in a text editor.
+
 2.Add a new line:
+
 ```
 for /r %%v in (*.[yourextension]) do (
   7za a "%%~dpv%%~nv.bz2" "%%v"
@@ -26,6 +28,7 @@ for /r %%v in (*.[yourextension]) do (
 )
 ```
 3.Replace [your extension] in the new line with your desired extension.
+
 4.Save the changes to the 7compress.bat file.
 
 For example, if you want to add the .pdf extension, you can modify the script as follows:
