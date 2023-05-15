@@ -1,6 +1,6 @@
 # bzip2 Mass Compression
 
-Hello! This script enables you to compress files using the bzip2 compression algorithm. It supports files with the following extensions: .nav, .bsp, .mp3, .wav, .kv, .txt, .dds, .png, .jpg, .svg, .vtx, .vvd, .phy, .mdl, .vmt, and .vtf.
+Hello! This script allows you to compress multiple files at once and fast using the bzip2 compression algorithm. It supports files with the following extensions: .nav, .bsp, .mp3, .wav, .kv, .txt, .dds, .png, .jpg, .svg, .vtx, .vvd, .phy, .mdl, .vmt, and .vtf.
 
 # Installation
 
