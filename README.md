@@ -25,8 +25,8 @@ If you want to add additional extensions, you can easily modify the 7compress.ba
 2.Add a new line:
 
 ```
-for /r %%v in (*.[yourextension]) do (
-  7za a "%%~dpv%%~nv.bz2" "%%v"
+for /r %%v in (*.[your extension]) do (
+  7za a "%%~dpnv%%~xv.bz2" "%%v"
   del "%%v"
 )
 ```
@@ -38,7 +38,7 @@ For example, if you want to add the .pdf extension, you can modify the script as
 
 ```
 for /r %%v in (*.pdf) do (
-  7za a "%%~dpv%%~nv.bz2" "%%v"
+  7za a "%%~dpnv%%~xv.bz2" "%%v"
   del "%%v"
 )
 ```
