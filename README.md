@@ -1,7 +1,3 @@
-# bzip2 Mass Compression
-
-Hello! This script allows you to compress multiple files at once and fast using the bzip2 compression algorithm. It supports any type of file.
-
 # Installation
 
 To set up the compression script, please follow these steps:
