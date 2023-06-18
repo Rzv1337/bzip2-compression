@@ -1,6 +1,6 @@
 # bzip2 Mass Compression
 
-Hello! This script allows you to compress multiple files at once and fast using the bzip2 compression algorithm. It supports files with the following extensions: .nav, .bsp, .mp3, .wav, .kv, .txt, .dds, .png, .jpg, .svg, .vtx, .vvd, .phy, .mdl, .vmt, and .vtf.
+Hello! This script allows you to compress multiple files at once and fast using the bzip2 compression algorithm. It supports any type of file.
 
 # Installation
 
@@ -15,32 +15,3 @@ To set up the compression script, please follow these steps:
 4.Sit back and relax while the script compresses all the files in the folder, including subdirectories, using the bzip2 algorithm.
 
 Once the script completes its execution, all the files in the folder, along with any subdirectories, will be compressed using the bzip2 algorithm.
-
-# Additional Information
-
-If you want to add additional extensions, you can easily modify the 7compress.bat file. Here's how:
-
-1.Open the 7compress.bat file in a text editor.
-
-2.Add a new line:
-
-```
-for /r %%v in (*.[your extension]) do (
-  7za a "%%~dpnv%%~xv.bz2" "%%v"
-  del "%%v"
-)
-```
-3.Replace [your extension] in the new line with your desired extension.
-
-4.Save the changes to the 7compress.bat file.
-
-For example, if you want to add the .pdf extension, you can modify the script as follows:
-
-```
-for /r %%v in (*.pdf) do (
-  7za a "%%~dpnv%%~xv.bz2" "%%v"
-  del "%%v"
-)
-```
-
-By following these steps, you can easily customize the script to include any additional file extensions you need.
