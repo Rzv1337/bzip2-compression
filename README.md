@@ -8,6 +8,4 @@ To set up the compression script, please follow these steps:
 
 3.Open the 7compress.bat file.
 
-4.Sit back and relax while the script compresses all the files in the folder, including subdirectories, using the bzip2 algorithm.
-
 Once the script completes its execution, all the files in the folder, along with any subdirectories, will be compressed using the bzip2 algorithm.
